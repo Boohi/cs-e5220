@@ -1,25 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import AccountSettings from './components/AccountSettings';
+import Provider from './components/Provider';
+import MyDevices from './components/MyDevices';
+import Community from './components/Community';
+import MyPreferences from './components/MyPreferences';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar></Navbar>
+        <Route exact path="/" component={Community} />
+        <Route exact path="/settings" component={AccountSettings} />
+        <Route exact path="/provider" component={Provider} />
+        <Route exact path="/mydevices" component={MyDevices} />
+        <Route exact path="/preferences" component={MyPreferences} />
+      </div>
+    </Router>
+
   );
 }
 
