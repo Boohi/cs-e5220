@@ -25,3 +25,28 @@
 .navbar-brand:hover {
     color: blue;
 }
+
+.info-card {
+    margin-top: 20px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(168,168,168,1);
+    box-shadow: 0px 0px 10px 5px rgba(168,168,168,1);
+}
+
+.grouped {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.password-change {
+    margin: 10px;
+}
+
+button {
+    margin: 15px;
+}
+
+form {
+    margin: 15px;
+}
