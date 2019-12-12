@@ -5,25 +5,35 @@ export default class AccountSettings extends Component {
         return (
             <div class="info-card container col-sm-12 col-md-10 col-lg-8">
             <form>
-                <div class="form-group grouped">
-                	<div class="form-group">
-	                <label>Name<input defaultValue="Robert Warren"></input></label>
-	                </div>
-	                <div class="form-group">
-	                <label>Address<input defaultValue="Vanha Maantie 6, A12"></input></label>
-	                </div>
-	                <div class="form-group">
-	                <label>Postal Code<input defaultValue="00230 Espoo"></input></label>
-	                 </div>
-	                <div class="form-group">
-	                <label>Phone<input type="phone" defaultValue="+358 40 1234 567"></input></label>
-	                 </div>
-	                <div class="form-group">
-	                <label>Email<input type="email" defaultValue="robert.warren@mail.com"></input></label>
-	                 </div>
-	                <div class="form-group">
-	                <label>Billing<input defaultValue="**** **** **** 1234"></input></label>
-	                 </div>
+            	<div class="table-container form-group grouped">
+            	<table class="info-table table table-borderless">
+	                 <tbody>
+					    <tr>
+					      <td><label for="name">Name</label></td>
+					      <td><input id="name" defaultValue="Robert Warren"></input></td>
+					    </tr>
+					    <tr>
+					      <td><label for="address">Address</label></td>
+					      <td><input id="address" defaultValue="Vanha Maantie 6, A12"></input></td>
+					    </tr>
+					    <tr>
+					      <td><label for="postal">Postal Code</label></td>
+					      <td><input id="postal" defaultValue="00230 Espoo"></input></td>
+					    </tr>
+					    <tr>
+					      <td><label for="phone" >Phone</label></td>
+					      <td><input id="phone" type="phone" defaultValue="+358 40 1234 567"></input></td>
+					    </tr>
+					    <tr>
+					      <td><label for="email">Email</label></td>
+					      <td><input id="email" type="email" defaultValue="robert.warren@mail.com"></input></td>
+					    </tr>
+					    <tr>
+					      <td><label>Billing</label></td>
+					      <td><input defaultValue="**** **** **** 1234"></input></td>
+					    </tr>
+					  </tbody>
+	              </table>
                 </div>
 
                 <div class="form-group grouped">
