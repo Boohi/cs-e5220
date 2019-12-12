@@ -32,7 +32,7 @@ export default class Provider extends Component {
 	                
                 </div>
 
-                <div class="col-lg-1"></div>
+                <div class="col-lg-2"></div>
 
                 <div class="info-card col-lg-5">
                  	<img alt="Company Logo" max-height="150px" class="img-fluid" src="https://www4.helen.fi/hf/uusinta/images/Helen_logo.png">
