@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class AccountSettings extends Component {
     render() {
         return (
-
             <div class="info-card container col-sm-12 col-md-10 col-lg-8">
             <form>
                 <div class="form-group grouped">
