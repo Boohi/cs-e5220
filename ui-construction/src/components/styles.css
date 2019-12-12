@@ -60,3 +60,38 @@ button {
 form {
     margin: 15px;
 }
+
+.device-table {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.battery-bubble {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.lightgreen {
+    background-color: rgb(187, 253, 4);
+}
