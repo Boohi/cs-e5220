@@ -34,6 +34,14 @@
     box-shadow: 0px 0px 10px 5px rgba(168,168,168,1);
 }
 
+.margin-card {
+    margin:10px;
+}
+
+.blue-infobox {
+    background: #2F80ED;
+}
+
 .table-container {
     margin: auto;
     display: inline-block;   
@@ -94,4 +102,40 @@ form {
 
 .lightgreen {
     background-color: rgb(187, 253, 4);
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue {
+    color: #2F80ED;
+}
+
+.white {
+    color: white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+}
+
+.small-text {
+    font-size: 11px;
+    color: #2F80ED;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h6 {
+    color: gray;
 }
