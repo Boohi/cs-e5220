@@ -139,3 +139,7 @@ form {
 h6 {
     color: gray;
 }
+
+.activeLink {
+    border-bottom: 1px solid blue;
+}
